@@ -1,0 +1,86 @@
+/* You can add global styles to this file, and also import other style files */
+/* 🌸 Global background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec); /* pastel blue → pink */
+  margin: 0;
+  padding: 0;
+}
+
+/* 🧱 Card container */
+.container {
+  width: 420px;
+  max-width: 90%;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 35px;              /* FIX: adds right & left spacing */
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* 📝 Headings */
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* ✏️ Inputs & textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px 12px;              /* FIX: inner spacing */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;          /* 🔥 CRITICAL FIX for right-side overflow */
+  font-size: 14px;
+}
+
+/* 🟦 Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #5c6bc0;             /* pastel indigo */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #3f51b5;
+}
+
+/* 🔴 Error message */
+.error {
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 🟢 Success message */
+.success {
+  color: #2e7d32;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 🔗 Navigation links */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
